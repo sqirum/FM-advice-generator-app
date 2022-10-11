@@ -51,4 +51,21 @@ main picture img {
     transform: translateY(50%);
     border-radius: 50%;
     height: 64px;
+    cursor: pointer;
 }
+
+@media only screen and (min-width: 768px) {
+    main {
+        max-width: 540px;
+    }
+    main h1 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 48px;
+    }
+    
+    main blockquote p {
+        line-height: 38px;
+        font-size: 28px;
+    }
+  }
